@@ -29,6 +29,6 @@ async function registerSW() {
   });
 
   // This is the line you change to change the wisp server (essential for static hosting ofc)
-  let wispUrl = "ws://localhost:8080/wisp"
+  let wispUrl = "https://bear.lema.cl/"
   BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
 }
